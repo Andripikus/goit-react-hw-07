@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
-import { store } from "./redux/store.js"; // Видалено persistor
+import { store } from "./redux/store.js";
 import App from "./App";
 import "modern-normalize";
 import "./index.css";
